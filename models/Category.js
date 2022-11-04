@@ -4,9 +4,28 @@ const sequelize = require('../config/connection.js');
 
 class Category extends Model {}
 
+// To add:
+// -id
+//  -Integer
+//  -Doesn't allow null values
+//  -Set as primary key
+//  -Uses auto increment
+// -category_name
+//  -String
+//  -Doesn't allow null values
+
 Category.init(
   {
-    // define columns
+    id: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      primaryKey: true,
+      autoIncrement: true
+    },
+    category: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    }
   },
   {
     sequelize,
