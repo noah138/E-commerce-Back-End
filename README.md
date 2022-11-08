@@ -40,7 +40,7 @@ Then create the schema in your MySQL shell:
 Exit mysql and then seed the data:
 ```
     mysql exit
-    npm run shell
+    npm run sheed
 ```
 
 ## Usage
