@@ -40,7 +40,7 @@ Then create the schema in your MySQL shell:
 Exit mysql and then seed the data:
 ```
     mysql exit
-    npm run sheed
+    npm run seed
 ```
 
 ## Usage
@@ -50,7 +50,7 @@ Run the server using the following command:
     npm run watch
 ```
 
-The functionality can be demonstrated using Insoma:
+The functionality can be demonstrated using Insomnia:
 
 [Click here to watch a video demonstration](https://drive.google.com/file/d/1aTIDmijxTBHMj_qvGa_siUL4a8xEt2vn/view)
 
